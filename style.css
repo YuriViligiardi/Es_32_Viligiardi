@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+form{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 30px;
+    width: 30%;
+}
+
+#divScript {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 30px;
+    width: 40%;
+}
+
+.buttonSend {
+    border: 1px solid black;
+    border-radius: 1vh;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.divResult{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 30px;
+    width: 30%;
+}
+
+#divResultErr{
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 3vh;
+    padding: 30px;
+    width: 30%;
+}
+
+#h1ResultErr {
+    color: red;
+    padding-bottom: 30px;
+}

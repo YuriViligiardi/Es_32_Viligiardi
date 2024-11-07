@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presentazione.html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="script.php" method="post">
+        <h1><b><i>LASCIA UNA RECENZIONE</i></b></h1>
+        <p><b>Inserisci la data: </b></p>
+        <input type="date" name="date">
+        <p><b>Dai un voto come recenzione: </b></p>
+        <input type="number" name="review" value="1" min="1" max="5">
+        <br>
+        <br>
+        <input class="buttonSend" type="submit" value="INVIA">
+        <br>
+        <br>
+        <a class="buttonSend" href="./risultati.php">VISUALIZZA TUTTE LE RECENZIONI</a> 
+    </form>
+</body>
+</html>

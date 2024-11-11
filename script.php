@@ -18,7 +18,7 @@
 <body>
     <?php
         $list = getData();
-        var_dump($_SESSION["reviews"]);
+        //var_dump($_SESSION["reviews"]);
         showData($list);
 
         function getData(){

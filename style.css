@@ -1,4 +1,11 @@
 body {
+    /* Per l'immagine di sfondo */
+    /* box-sizing: border-box;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+    background-color: darkorange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +18,7 @@ form{
     border-radius: 3vh;
     padding: 30px;
     width: 30%;
+    background-color: white;
 }
 
 #divScript {
@@ -19,6 +27,7 @@ form{
     border-radius: 3vh;
     padding: 30px;
     width: 40%;
+    background-color: white;
 }
 
 .buttonSend {
@@ -27,6 +36,7 @@ form{
     padding: 5px;
     color: black;
     text-decoration: none;
+    background-color: white;
 }
 
 .divResult{
@@ -35,17 +45,56 @@ form{
     border-radius: 3vh;
     padding: 30px;
     width: 30%;
+    background-color: white;
 }
 
-#divResultErr{
+.divResultErr{
     text-align: center;
     border: 5px solid red;
     border-radius: 3vh;
     padding: 30px;
     width: 30%;
+    background-color: white;
 }
 
-#h1ResultErr {
+.h1ResultErr {
     color: red;
+    padding-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    border-radius: 3vh;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+ul {
+    width: 25%;
+    margin: auto;
+}
+
+li { 
+    width: 25%;
+    text-align: center;
+}
+
+#divReset{ 
+    text-align: center;
+    border: 5px solid green;
+    border-radius: 3vh;
+    padding: 30px;
+    width: 30%;
+    background-color: white;
+}
+
+#h1Reset{
+    color: green;
     padding-bottom: 30px;
 }
